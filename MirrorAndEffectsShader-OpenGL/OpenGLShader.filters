@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\glad.c" />
+    <ClCompile Include="shader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Dependency\glut-3.7.6-bin\glut.def" />
+    <None Include="shaders\fs.shader" />
+    <None Include="shaders\vs.shader" />
+    <None Include="shaders\vs1.shader" />
+    <None Include="shaders\vs2.shader" />
+    <None Include="shaders\vs3.shader" />
+    <None Include="shaders\fs1.shader" />
+    <None Include="shaders\fs2.shader" />
+    <None Include="shaders\fs3.shader" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Dependency\glut-3.7.6-bin\glut.h" />
+    <ClInclude Include="shader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="3.bmp" />
+    <Image Include="1.bmp" />
+    <Image Include="2.bmp" />
+    <Image Include="4.bmp" />
+  </ItemGroup>
+</Project>
